@@ -14,7 +14,14 @@ Some papers and maybe their summery relative to bag of visual words in the last 
 
 ## 2019
 
+* [Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet](https://arxiv.org/abs/1904.00760)<br>
 
+Classification: combination of Neural Network and BOVW<br>
+
+Innovation point: use the main idea of BOVW and apply it in the Neural Network, in order to explain how a DNN works.<br>
+
+创新点：<br> 
+DNN可解释性差，用图片划分成32*32的小图片，再放进去DNN中进行分类，得到一个类别向量，一张图片中所有类别向量相加，，得到这张图片的总的类别向量，根据类别向量的最大值进行分类。唯一不同的是，划分之后放进去DNN中分类，用DNN代替了K-means 
 
 
 ## 2018
